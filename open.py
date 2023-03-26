@@ -9,7 +9,7 @@ try:
     from requests.exceptions import ConnectionError
 except ModuleNotFoundError:
     os.system('pip install mechanize requests futures==2 > /dev/null')
-    os.system('pip install pyfiglet futures==2 > /dev/null')
+    
     
 P = '\x1b[1;97m' # PUTIH
 M = '\x1b[1;91m' # MERAH
